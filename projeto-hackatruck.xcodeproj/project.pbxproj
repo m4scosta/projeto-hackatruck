@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FA9B6A81C1EC87A00399CEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9B6A71C1EC87A00399CEA /* AppDelegate.swift */; };
+		3FA9B6AA1C1EC87A00399CEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9B6A91C1EC87A00399CEA /* ViewController.swift */; };
+		3FA9B6AD1C1EC87A00399CEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA9B6AB1C1EC87A00399CEA /* Main.storyboard */; };
+		3FA9B6B01C1EC87A00399CEA /* projeto_hackatruck.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9B6AE1C1EC87A00399CEA /* projeto_hackatruck.xcdatamodeld */; };
+		3FA9B6B21C1EC87A00399CEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA9B6B11C1EC87A00399CEA /* Assets.xcassets */; };
+		3FA9B6B51C1EC87A00399CEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA9B6B31C1EC87A00399CEA /* LaunchScreen.storyboard */; };
+		3FA9B6C01C1EC87A00399CEA /* projeto_hackatruckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9B6BF1C1EC87A00399CEA /* projeto_hackatruckTests.swift */; };
+		3FA9B6CB1C1EC87A00399CEA /* projeto_hackatruckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9B6CA1C1EC87A00399CEA /* projeto_hackatruckUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FA9B6BC1C1EC87A00399CEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FA9B69C1C1EC87A00399CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA9B6A31C1EC87A00399CEA;
+			remoteInfo = "projeto-hackatruck";
+		};
+		3FA9B6C71C1EC87A00399CEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FA9B69C1C1EC87A00399CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA9B6A31C1EC87A00399CEA;
+			remoteInfo = "projeto-hackatruck";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FA9B6A41C1EC87A00399CEA /* projeto-hackatruck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "projeto-hackatruck.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA9B6A71C1EC87A00399CEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FA9B6A91C1EC87A00399CEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FA9B6AC1C1EC87A00399CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FA9B6AF1C1EC87A00399CEA /* projeto_hackatruck.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = projeto_hackatruck.xcdatamodel; sourceTree = "<group>"; };
+		3FA9B6B11C1EC87A00399CEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FA9B6B41C1EC87A00399CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FA9B6B61C1EC87A00399CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA9B6BB1C1EC87A00399CEA /* projeto-hackatruckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "projeto-hackatruckTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA9B6BF1C1EC87A00399CEA /* projeto_hackatruckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = projeto_hackatruckTests.swift; sourceTree = "<group>"; };
+		3FA9B6C11C1EC87A00399CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA9B6C61C1EC87A00399CEA /* projeto-hackatruckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "projeto-hackatruckUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA9B6CA1C1EC87A00399CEA /* projeto_hackatruckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = projeto_hackatruckUITests.swift; sourceTree = "<group>"; };
+		3FA9B6CC1C1EC87A00399CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FA9B6A11C1EC87A00399CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA9B6B81C1EC87A00399CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA9B6C31C1EC87A00399CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FA9B69B1C1EC87A00399CEA = {
+			isa = PBXGroup;
+			children = (
+				3FA9B6A61C1EC87A00399CEA /* projeto-hackatruck */,
+				3FA9B6BE1C1EC87A00399CEA /* projeto-hackatruckTests */,
+				3FA9B6C91C1EC87A00399CEA /* projeto-hackatruckUITests */,
+				3FA9B6A51C1EC87A00399CEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FA9B6A51C1EC87A00399CEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FA9B6A41C1EC87A00399CEA /* projeto-hackatruck.app */,
+				3FA9B6BB1C1EC87A00399CEA /* projeto-hackatruckTests.xctest */,
+				3FA9B6C61C1EC87A00399CEA /* projeto-hackatruckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FA9B6A61C1EC87A00399CEA /* projeto-hackatruck */ = {
+			isa = PBXGroup;
+			children = (
+				3FA9B6A71C1EC87A00399CEA /* AppDelegate.swift */,
+				3FA9B6A91C1EC87A00399CEA /* ViewController.swift */,
+				3FA9B6AB1C1EC87A00399CEA /* Main.storyboard */,
+				3FA9B6B11C1EC87A00399CEA /* Assets.xcassets */,
+				3FA9B6B31C1EC87A00399CEA /* LaunchScreen.storyboard */,
+				3FA9B6B61C1EC87A00399CEA /* Info.plist */,
+				3FA9B6AE1C1EC87A00399CEA /* projeto_hackatruck.xcdatamodeld */,
+			);
+			path = "projeto-hackatruck";
+			sourceTree = "<group>";
+		};
+		3FA9B6BE1C1EC87A00399CEA /* projeto-hackatruckTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FA9B6BF1C1EC87A00399CEA /* projeto_hackatruckTests.swift */,
+				3FA9B6C11C1EC87A00399CEA /* Info.plist */,
+			);
+			path = "projeto-hackatruckTests";
+			sourceTree = "<group>";
+		};
+		3FA9B6C91C1EC87A00399CEA /* projeto-hackatruckUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FA9B6CA1C1EC87A00399CEA /* projeto_hackatruckUITests.swift */,
+				3FA9B6CC1C1EC87A00399CEA /* Info.plist */,
+			);
+			path = "projeto-hackatruckUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FA9B6A31C1EC87A00399CEA /* projeto-hackatruck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA9B6CF1C1EC87A00399CEA /* Build configuration list for PBXNativeTarget "projeto-hackatruck" */;
+			buildPhases = (
+				3FA9B6A01C1EC87A00399CEA /* Sources */,
+				3FA9B6A11C1EC87A00399CEA /* Frameworks */,
+				3FA9B6A21C1EC87A00399CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "projeto-hackatruck";
+			productName = "projeto-hackatruck";
+			productReference = 3FA9B6A41C1EC87A00399CEA /* projeto-hackatruck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FA9B6BA1C1EC87A00399CEA /* projeto-hackatruckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA9B6D21C1EC87A00399CEA /* Build configuration list for PBXNativeTarget "projeto-hackatruckTests" */;
+			buildPhases = (
+				3FA9B6B71C1EC87A00399CEA /* Sources */,
+				3FA9B6B81C1EC87A00399CEA /* Frameworks */,
+				3FA9B6B91C1EC87A00399CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FA9B6BD1C1EC87A00399CEA /* PBXTargetDependency */,
+			);
+			name = "projeto-hackatruckTests";
+			productName = "projeto-hackatruckTests";
+			productReference = 3FA9B6BB1C1EC87A00399CEA /* projeto-hackatruckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FA9B6C51C1EC87A00399CEA /* projeto-hackatruckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA9B6D51C1EC87A00399CEA /* Build configuration list for PBXNativeTarget "projeto-hackatruckUITests" */;
+			buildPhases = (
+				3FA9B6C21C1EC87A00399CEA /* Sources */,
+				3FA9B6C31C1EC87A00399CEA /* Frameworks */,
+				3FA9B6C41C1EC87A00399CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FA9B6C81C1EC87A00399CEA /* PBXTargetDependency */,
+			);
+			name = "projeto-hackatruckUITests";
+			productName = "projeto-hackatruckUITests";
+			productReference = 3FA9B6C61C1EC87A00399CEA /* projeto-hackatruckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FA9B69C1C1EC87A00399CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = organization;
+				TargetAttributes = {
+					3FA9B6A31C1EC87A00399CEA = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = HGVV553YY8;
+					};
+					3FA9B6BA1C1EC87A00399CEA = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = HGVV553YY8;
+						TestTargetID = 3FA9B6A31C1EC87A00399CEA;
+					};
+					3FA9B6C51C1EC87A00399CEA = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = HGVV553YY8;
+						TestTargetID = 3FA9B6A31C1EC87A00399CEA;
+					};
+				};
+			};
+			buildConfigurationList = 3FA9B69F1C1EC87A00399CEA /* Build configuration list for PBXProject "projeto-hackatruck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FA9B69B1C1EC87A00399CEA;
+			productRefGroup = 3FA9B6A51C1EC87A00399CEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FA9B6A31C1EC87A00399CEA /* projeto-hackatruck */,
+				3FA9B6BA1C1EC87A00399CEA /* projeto-hackatruckTests */,
+				3FA9B6C51C1EC87A00399CEA /* projeto-hackatruckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FA9B6A21C1EC87A00399CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA9B6B51C1EC87A00399CEA /* LaunchScreen.storyboard in Resources */,
+				3FA9B6B21C1EC87A00399CEA /* Assets.xcassets in Resources */,
+				3FA9B6AD1C1EC87A00399CEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA9B6B91C1EC87A00399CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA9B6C41C1EC87A00399CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FA9B6A01C1EC87A00399CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA9B6B01C1EC87A00399CEA /* projeto_hackatruck.xcdatamodeld in Sources */,
+				3FA9B6AA1C1EC87A00399CEA /* ViewController.swift in Sources */,
+				3FA9B6A81C1EC87A00399CEA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA9B6B71C1EC87A00399CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA9B6C01C1EC87A00399CEA /* projeto_hackatruckTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA9B6C21C1EC87A00399CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA9B6CB1C1EC87A00399CEA /* projeto_hackatruckUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FA9B6BD1C1EC87A00399CEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FA9B6A31C1EC87A00399CEA /* projeto-hackatruck */;
+			targetProxy = 3FA9B6BC1C1EC87A00399CEA /* PBXContainerItemProxy */;
+		};
+		3FA9B6C81C1EC87A00399CEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FA9B6A31C1EC87A00399CEA /* projeto-hackatruck */;
+			targetProxy = 3FA9B6C71C1EC87A00399CEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FA9B6AB1C1EC87A00399CEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA9B6AC1C1EC87A00399CEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FA9B6B31C1EC87A00399CEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA9B6B41C1EC87A00399CEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FA9B6CD1C1EC87A00399CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FA9B6CE1C1EC87A00399CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FA9B6D01C1EC87A00399CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "projeto-hackatruck/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "temp.organization.projeto-hackatruck";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FA9B6D11C1EC87A00399CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "projeto-hackatruck/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "temp.organization.projeto-hackatruck";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FA9B6D31C1EC87A00399CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "projeto-hackatruckTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "temp.organization.projeto-hackatruckTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/projeto-hackatruck.app/projeto-hackatruck";
+			};
+			name = Debug;
+		};
+		3FA9B6D41C1EC87A00399CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "projeto-hackatruckTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "temp.organization.projeto-hackatruckTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/projeto-hackatruck.app/projeto-hackatruck";
+			};
+			name = Release;
+		};
+		3FA9B6D61C1EC87A00399CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "projeto-hackatruckUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "temp.organization.projeto-hackatruckUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "projeto-hackatruck";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3FA9B6D71C1EC87A00399CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "projeto-hackatruckUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "temp.organization.projeto-hackatruckUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "projeto-hackatruck";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FA9B69F1C1EC87A00399CEA /* Build configuration list for PBXProject "projeto-hackatruck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA9B6CD1C1EC87A00399CEA /* Debug */,
+				3FA9B6CE1C1EC87A00399CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA9B6CF1C1EC87A00399CEA /* Build configuration list for PBXNativeTarget "projeto-hackatruck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA9B6D01C1EC87A00399CEA /* Debug */,
+				3FA9B6D11C1EC87A00399CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FA9B6D21C1EC87A00399CEA /* Build configuration list for PBXNativeTarget "projeto-hackatruckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA9B6D31C1EC87A00399CEA /* Debug */,
+				3FA9B6D41C1EC87A00399CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FA9B6D51C1EC87A00399CEA /* Build configuration list for PBXNativeTarget "projeto-hackatruckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA9B6D61C1EC87A00399CEA /* Debug */,
+				3FA9B6D71C1EC87A00399CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3FA9B6AE1C1EC87A00399CEA /* projeto_hackatruck.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3FA9B6AF1C1EC87A00399CEA /* projeto_hackatruck.xcdatamodel */,
+			);
+			currentVersion = 3FA9B6AF1C1EC87A00399CEA /* projeto_hackatruck.xcdatamodel */;
+			path = projeto_hackatruck.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3FA9B69C1C1EC87A00399CEA /* Project object */;
+}
