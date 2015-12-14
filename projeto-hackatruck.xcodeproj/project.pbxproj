@@ -15,6 +15,7 @@
 		3FA9B6B51C1EC87A00399CEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA9B6B31C1EC87A00399CEA /* LaunchScreen.storyboard */; };
 		3FA9B6C01C1EC87A00399CEA /* projeto_hackatruckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9B6BF1C1EC87A00399CEA /* projeto_hackatruckTests.swift */; };
 		3FA9B6CB1C1EC87A00399CEA /* projeto_hackatruckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9B6CA1C1EC87A00399CEA /* projeto_hackatruckUITests.swift */; };
+		3FA9B6DA1C1EE3EF00399CEA /* BeaconController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9B6D91C1EE3EF00399CEA /* BeaconController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3FA9B6C61C1EC87A00399CEA /* projeto-hackatruckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "projeto-hackatruckUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA9B6CA1C1EC87A00399CEA /* projeto_hackatruckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = projeto_hackatruckUITests.swift; sourceTree = "<group>"; };
 		3FA9B6CC1C1EC87A00399CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA9B6D91C1EE3EF00399CEA /* BeaconController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		3FA9B6A61C1EC87A00399CEA /* projeto-hackatruck */ = {
 			isa = PBXGroup;
 			children = (
+				3FA9B6D81C1EDFC800399CEA /* beacon */,
 				3FA9B6A71C1EC87A00399CEA /* AppDelegate.swift */,
 				3FA9B6A91C1EC87A00399CEA /* ViewController.swift */,
 				3FA9B6AB1C1EC87A00399CEA /* Main.storyboard */,
@@ -126,6 +129,14 @@
 				3FA9B6CC1C1EC87A00399CEA /* Info.plist */,
 			);
 			path = "projeto-hackatruckUITests";
+			sourceTree = "<group>";
+		};
+		3FA9B6D81C1EDFC800399CEA /* beacon */ = {
+			isa = PBXGroup;
+			children = (
+				3FA9B6D91C1EE3EF00399CEA /* BeaconController.swift */,
+			);
+			name = beacon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FA9B6B01C1EC87A00399CEA /* projeto_hackatruck.xcdatamodeld in Sources */,
+				3FA9B6DA1C1EE3EF00399CEA /* BeaconController.swift in Sources */,
 				3FA9B6AA1C1EC87A00399CEA /* ViewController.swift in Sources */,
 				3FA9B6A81C1EC87A00399CEA /* AppDelegate.swift in Sources */,
 			);

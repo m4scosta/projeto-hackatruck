@@ -9,10 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let beaconController = BeaconController()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        beaconController.requestAuthorization()
+        beaconController.start()
     }
 
     override func didReceiveMemoryWarning() {
