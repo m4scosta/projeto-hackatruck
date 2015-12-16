@@ -17,6 +17,8 @@ class BeaconController: NSObject, CLLocationManagerDelegate {
     
     private var lastNearestBeacon: CLBeacon?
     
+    private var working = false
+    
     var delegate: BeaconControllerDelegate?
 
     static let instance = BeaconController()
@@ -40,6 +42,17 @@ class BeaconController: NSObject, CLLocationManagerDelegate {
     func stop() {
         locationManager.stopMonitoringForRegion(region)
         print("Ranging stopped")
+    }
+    
+    func toggle() {
+        if !working {
+            requestAuthorization()
+            start()
+        } else {
+            stop()
+        }
+        
+        working = !working
     }
 
     func locationManager(manager: CLLocationManager, didRangeBeacons beacons: [CLBeacon], inRegion region: CLBeaconRegion) {

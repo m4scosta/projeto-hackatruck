@@ -29,6 +29,9 @@
                                 <rect key="frame" x="232" y="177" width="137" height="137"/>
                                 <animations/>
                                 <state key="normal" image="Logo"/>
+                                <connections>
+                                    <action selector="toggleRanging:" destination="fVz-eE-J0P" eventType="touchUpInside" id="Is1-ur-sI1"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="WAY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s0v-Xk-eBU">
                                 <rect key="frame" x="261" y="340" width="79" height="43"/>
