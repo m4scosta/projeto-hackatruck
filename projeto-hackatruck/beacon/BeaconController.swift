@@ -67,7 +67,10 @@ class BeaconController: NSObject, CLLocationManagerDelegate {
         
         if isNewNearestBeacon(beacon) {
             lastNearestBeacon = beacon
-            delegate?.nearestBeacon(beacon)
+            
+            if working {
+                delegate?.nearestBeacon(beacon)
+            }
         }
     }
     

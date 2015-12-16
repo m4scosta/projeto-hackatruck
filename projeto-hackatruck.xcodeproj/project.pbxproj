@@ -20,6 +20,7 @@
 		3FA9B6CB1C1EC87A00399CEA /* projeto_hackatruckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9B6CA1C1EC87A00399CEA /* projeto_hackatruckUITests.swift */; };
 		3FB039F81C21919100DF3CC7 /* BeaconController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB039F61C21919100DF3CC7 /* BeaconController.swift */; };
 		3FB039F91C21919100DF3CC7 /* BeaconControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB039F71C21919100DF3CC7 /* BeaconControllerDelegate.swift */; };
+		3FB039FC1C21941D00DF3CC7 /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB039FB1C21941D00DF3CC7 /* SpeechService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		3FA9B6CC1C1EC87A00399CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FB039F61C21919100DF3CC7 /* BeaconController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BeaconController.swift; path = beacon/BeaconController.swift; sourceTree = "<group>"; };
 		3FB039F71C21919100DF3CC7 /* BeaconControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BeaconControllerDelegate.swift; path = beacon/BeaconControllerDelegate.swift; sourceTree = "<group>"; };
+		3FB039FB1C21941D00DF3CC7 /* SpeechService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		3FA9B6A61C1EC87A00399CEA /* projeto-hackatruck */ = {
 			isa = PBXGroup;
 			children = (
+				3FB039FA1C2193C300DF3CC7 /* speech */,
 				3FB039F51C21918700DF3CC7 /* beacon */,
 				3FA9B6A71C1EC87A00399CEA /* AppDelegate.swift */,
 				3FA9B6A91C1EC87A00399CEA /* ViewController.swift */,
@@ -149,6 +152,14 @@
 				3FB039F71C21919100DF3CC7 /* BeaconControllerDelegate.swift */,
 			);
 			name = beacon;
+			sourceTree = "<group>";
+		};
+		3FB039FA1C2193C300DF3CC7 /* speech */ = {
+			isa = PBXGroup;
+			children = (
+				3FB039FB1C21941D00DF3CC7 /* SpeechService.swift */,
+			);
+			name = speech;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +301,7 @@
 				3F56B7E61C20412C00966A4D /* controlListInfos.swift in Sources */,
 				3FA9B6B01C1EC87A00399CEA /* projeto_hackatruck.xcdatamodeld in Sources */,
 				3F1B9B191C1EEAE80041A938 /* screensController.swift in Sources */,
+				3FB039FC1C21941D00DF3CC7 /* SpeechService.swift in Sources */,
 				3F56B7EA1C20472900966A4D /* sectorListProducts.swift in Sources */,
 				3FA9B6AA1C1EC87A00399CEA /* ViewController.swift in Sources */,
 				3FA9B6A81C1EC87A00399CEA /* AppDelegate.swift in Sources */,
