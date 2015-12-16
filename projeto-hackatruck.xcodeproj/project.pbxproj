@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1B9B191C1EEAE80041A938 /* screensController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1B9B181C1EEAE80041A938 /* screensController.swift */; };
+		3F1B9B2D1C1EF3DD0041A938 /* history.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F1B9B2C1C1EF3DD0041A938 /* history.png */; };
+		3F1B9B2F1C1EF49B0041A938 /* Very-Basic-Home-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F1B9B2E1C1EF49B0041A938 /* Very-Basic-Home-icon.png */; };
+		3F1DB3D31C2025EE000FE5FE /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F1DB3D21C2025EE000FE5FE /* Logo.png */; };
+		3F56B7E01C203ADC00966A4D /* ios8_plus_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F56B7DF1C203ADC00966A4D /* ios8_plus_icon.png */; };
+		3F56B7E21C203EF800966A4D /* Ecommerce-Shop-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F56B7E11C203EF800966A4D /* Ecommerce-Shop-icon.png */; };
+		3F56B7E41C20402400966A4D /* Business-Org-Unit-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F56B7E31C20402400966A4D /* Business-Org-Unit-icon.png */; };
+		3F56B7E61C20412C00966A4D /* controlListInfos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F56B7E51C20412C00966A4D /* controlListInfos.swift */; };
+		3F56B7E81C2044C300966A4D /* Ecommerce-Shopping-Basket-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F56B7E71C2044C300966A4D /* Ecommerce-Shopping-Basket-icon.png */; };
+		3F56B7EA1C20472900966A4D /* sectorListProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F56B7E91C20472900966A4D /* sectorListProducts.swift */; };
 		3FA9B6A81C1EC87A00399CEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9B6A71C1EC87A00399CEA /* AppDelegate.swift */; };
 		3FA9B6AA1C1EC87A00399CEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9B6A91C1EC87A00399CEA /* ViewController.swift */; };
 		3FA9B6AD1C1EC87A00399CEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA9B6AB1C1EC87A00399CEA /* Main.storyboard */; };
@@ -35,6 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F1B9B181C1EEAE80041A938 /* screensController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = screensController.swift; sourceTree = "<group>"; };
+		3F1B9B2C1C1EF3DD0041A938 /* history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = history.png; path = ../../student/Downloads/history.png; sourceTree = "<group>"; };
+		3F1B9B2E1C1EF49B0041A938 /* Very-Basic-Home-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Very-Basic-Home-icon.png"; path = "../../student/Downloads/Very-Basic-Home-icon.png"; sourceTree = "<group>"; };
+		3F1DB3D21C2025EE000FE5FE /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Logo.png; path = ../../student/Downloads/Logo.png; sourceTree = "<group>"; };
+		3F56B7DF1C203ADC00966A4D /* ios8_plus_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ios8_plus_icon.png; path = ../../student/Downloads/ios8_plus_icon.png; sourceTree = "<group>"; };
+		3F56B7E11C203EF800966A4D /* Ecommerce-Shop-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ecommerce-Shop-icon.png"; path = "../../student/Downloads/Ecommerce-Shop-icon.png"; sourceTree = "<group>"; };
+		3F56B7E31C20402400966A4D /* Business-Org-Unit-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Business-Org-Unit-icon.png"; path = "../../student/Downloads/Business-Org-Unit-icon.png"; sourceTree = "<group>"; };
+		3F56B7E51C20412C00966A4D /* controlListInfos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = controlListInfos.swift; sourceTree = "<group>"; };
+		3F56B7E71C2044C300966A4D /* Ecommerce-Shopping-Basket-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ecommerce-Shopping-Basket-icon.png"; path = "../../student/Downloads/Ecommerce-Shopping-Basket-icon.png"; sourceTree = "<group>"; };
+		3F56B7E91C20472900966A4D /* sectorListProducts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sectorListProducts.swift; sourceTree = "<group>"; };
 		3FA9B6A41C1EC87A00399CEA /* projeto-hackatruck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "projeto-hackatruck.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA9B6A71C1EC87A00399CEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FA9B6A91C1EC87A00399CEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +99,13 @@
 		3FA9B69B1C1EC87A00399CEA = {
 			isa = PBXGroup;
 			children = (
+				3F1B9B2E1C1EF49B0041A938 /* Very-Basic-Home-icon.png */,
+				3F56B7DF1C203ADC00966A4D /* ios8_plus_icon.png */,
+				3F56B7E71C2044C300966A4D /* Ecommerce-Shopping-Basket-icon.png */,
+				3F56B7E31C20402400966A4D /* Business-Org-Unit-icon.png */,
+				3F1B9B2C1C1EF3DD0041A938 /* history.png */,
+				3F56B7E11C203EF800966A4D /* Ecommerce-Shop-icon.png */,
+				3F1DB3D21C2025EE000FE5FE /* Logo.png */,
 				3FA9B6A61C1EC87A00399CEA /* projeto-hackatruck */,
 				3FA9B6BE1C1EC87A00399CEA /* projeto-hackatruckTests */,
 				3FA9B6C91C1EC87A00399CEA /* projeto-hackatruckUITests */,
@@ -102,6 +129,9 @@
 				3FA9B6A71C1EC87A00399CEA /* AppDelegate.swift */,
 				3FA9B6A91C1EC87A00399CEA /* ViewController.swift */,
 				3FA9B6AB1C1EC87A00399CEA /* Main.storyboard */,
+				3F56B7E51C20412C00966A4D /* controlListInfos.swift */,
+				3F1B9B181C1EEAE80041A938 /* screensController.swift */,
+				3F56B7E91C20472900966A4D /* sectorListProducts.swift */,
 				3FA9B6B11C1EC87A00399CEA /* Assets.xcassets */,
 				3FA9B6B31C1EC87A00399CEA /* LaunchScreen.storyboard */,
 				3FA9B6B61C1EC87A00399CEA /* Info.plist */,
@@ -235,9 +265,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F1DB3D31C2025EE000FE5FE /* Logo.png in Resources */,
+				3F56B7E01C203ADC00966A4D /* ios8_plus_icon.png in Resources */,
+				3F1B9B2D1C1EF3DD0041A938 /* history.png in Resources */,
 				3FA9B6B51C1EC87A00399CEA /* LaunchScreen.storyboard in Resources */,
 				3FA9B6B21C1EC87A00399CEA /* Assets.xcassets in Resources */,
+				3F56B7E81C2044C300966A4D /* Ecommerce-Shopping-Basket-icon.png in Resources */,
+				3F1B9B2F1C1EF49B0041A938 /* Very-Basic-Home-icon.png in Resources */,
 				3FA9B6AD1C1EC87A00399CEA /* Main.storyboard in Resources */,
+				3F56B7E41C20402400966A4D /* Business-Org-Unit-icon.png in Resources */,
+				3F56B7E21C203EF800966A4D /* Ecommerce-Shop-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +299,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F56B7E61C20412C00966A4D /* controlListInfos.swift in Sources */,
 				3FA9B6B01C1EC87A00399CEA /* projeto_hackatruck.xcdatamodeld in Sources */,
+				3F1B9B191C1EEAE80041A938 /* screensController.swift in Sources */,
+				3F56B7EA1C20472900966A4D /* sectorListProducts.swift in Sources */,
 				3FA9B6AA1C1EC87A00399CEA /* ViewController.swift in Sources */,
 				3FA9B6A81C1EC87A00399CEA /* AppDelegate.swift in Sources */,
 			);
@@ -491,6 +531,7 @@
 				3FA9B6D11C1EC87A00399CEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FA9B6D21C1EC87A00399CEA /* Build configuration list for PBXNativeTarget "projeto-hackatruckTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +540,7 @@
 				3FA9B6D41C1EC87A00399CEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FA9B6D51C1EC87A00399CEA /* Build configuration list for PBXNativeTarget "projeto-hackatruckUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +549,7 @@
 				3FA9B6D71C1EC87A00399CEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -1,25 +1,157 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Ayz-Bk-p4q">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Nofitication Screen-->
+        <scene sceneID="zPy-rc-ef4">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fVz-eE-J0P" userLabel="Nofitication Screen" customClass="ViewController" customModule="projeto_hackatruck" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="0zJ-Af-xzN"/>
+                        <viewControllerLayoutGuide type="bottom" id="wtq-sE-6T0"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="7bw-Xp-KAQ">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="FINDING YOUR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WAz-bM-Dcr">
+                                <rect key="frame" x="198" y="72" width="204" height="38"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="23"/>
+                                <color key="textColor" red="0.72941176470588232" green="0.45098039215686275" blue="0.15294117647058825" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9q-uc-Tjq">
+                                <rect key="frame" x="232" y="177" width="137" height="137"/>
+                                <animations/>
+                                <state key="normal" image="Logo.png"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="WAY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s0v-Xk-eBU">
+                                <rect key="frame" x="261" y="340" width="79" height="43"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="33"/>
+                                <color key="textColor" red="0.10196078431372549" green="0.2627450980392157" blue="0.33725490196078434" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="WAz-bM-Dcr" secondAttribute="trailing" constant="20" id="5hm-yL-9LZ"/>
+                            <constraint firstItem="WAz-bM-Dcr" firstAttribute="centerX" secondItem="7bw-Xp-KAQ" secondAttribute="centerX" id="7LH-OY-KCg"/>
+                            <constraint firstItem="wtq-sE-6T0" firstAttribute="top" secondItem="s0v-Xk-eBU" secondAttribute="bottom" constant="70" id="8jO-2H-aqD"/>
+                            <constraint firstItem="WAz-bM-Dcr" firstAttribute="top" secondItem="0zJ-Af-xzN" secondAttribute="bottom" constant="35" id="9kZ-gM-4c2"/>
+                            <constraint firstItem="s0v-Xk-eBU" firstAttribute="top" secondItem="l9q-uc-Tjq" secondAttribute="bottom" constant="10" id="PtJ-0J-tHA"/>
+                            <constraint firstItem="l9q-uc-Tjq" firstAttribute="top" secondItem="0zJ-Af-xzN" secondAttribute="bottom" constant="125" id="UNP-sD-W4x"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="s0v-Xk-eBU" secondAttribute="trailing" constant="20" id="W2S-I0-mTP"/>
+                            <constraint firstItem="l9q-uc-Tjq" firstAttribute="leading" secondItem="7bw-Xp-KAQ" secondAttribute="leadingMargin" constant="70" id="cHD-4m-VpP"/>
+                            <constraint firstItem="s0v-Xk-eBU" firstAttribute="leading" secondItem="7bw-Xp-KAQ" secondAttribute="leadingMargin" constant="20" id="lPI-f7-LmA"/>
+                            <constraint firstItem="WAz-bM-Dcr" firstAttribute="leading" secondItem="7bw-Xp-KAQ" secondAttribute="leadingMargin" constant="20" id="mer-mS-94L"/>
+                            <constraint firstItem="l9q-uc-Tjq" firstAttribute="top" secondItem="WAz-bM-Dcr" secondAttribute="bottom" constant="20" id="o1H-Vp-qnc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="l9q-uc-Tjq" secondAttribute="trailing" constant="70" id="yFf-Ma-PrC"/>
+                            <constraint firstItem="wtq-sE-6T0" firstAttribute="top" secondItem="l9q-uc-Tjq" secondAttribute="bottom" constant="140" id="ykh-8P-bPA"/>
+                        </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="Very-Basic-Home-icon.png" id="Wgw-24-GkR">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                    </tabBarItem>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h4o-QB-dHU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="978" y="72"/>
+        </scene>
+        <!--Sector Infos-->
+        <scene sceneID="n6a-GP-LPg">
+            <objects>
+                <tableViewController id="FcT-rY-j7J" userLabel="Sector Infos" customClass="sectorListProducts" customModule="projeto_hackatruck" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="JZr-N3-AB4">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="vbt-Um-bwG">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SECTOR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eCh-Mk-ZB7">
+                                    <rect key="frame" x="268" y="23" width="65" height="21"/>
+                                    <animations/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <animations/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="zOF-Kt-TIt" customClass="controlListInfos" customModule="projeto_hackatruck" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="72" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zOF-Kt-TIt" id="KsU-zw-gWl">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PRODUCT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OJU-mv-BkE">
+                                            <rect key="frame" x="260" y="14" width="80" height="21"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ecommerce-Shopping-Basket-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="3V2-BT-nup">
+                                            <rect key="frame" x="209" y="6" width="32" height="32"/>
+                                            <animations/>
+                                        </imageView>
+                                    </subviews>
+                                    <animations/>
+                                </tableViewCellContentView>
+                                <animations/>
+                                <connections>
+                                    <outlet property="imgProduct" destination="3V2-BT-nup" id="fFQ-Nw-G2O"/>
+                                    <outlet property="productNameLabel" destination="OJU-mv-BkE" id="cwh-qf-inE"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="FcT-rY-j7J" id="FLV-6l-BfJ"/>
+                            <outlet property="delegate" destination="FcT-rY-j7J" id="rrb-MD-Y7d"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Infos" image="ios8_plus_icon.png" id="X12-lM-rWJ"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eU5-uu-QDI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="978" y="763"/>
+        </scene>
+        <!--Screens Controller-->
+        <scene sceneID="nGb-gR-ZKP">
+            <objects>
+                <tabBarController id="Ayz-Bk-p4q" customClass="screensController" customModule="projeto_hackatruck" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="hQP-dO-Dg0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="fVz-eE-J0P" kind="relationship" relationship="viewControllers" id="7Jm-94-9Ux"/>
+                        <segue destination="FcT-rY-j7J" kind="relationship" relationship="viewControllers" id="Vw4-Vt-izY"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UIW-Nq-cb0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="158" y="439"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Ecommerce-Shopping-Basket-icon.png" width="32" height="32"/>
+        <image name="Logo.png" width="302" height="302"/>
+        <image name="Very-Basic-Home-icon.png" width="32" height="32"/>
+        <image name="ios8_plus_icon.png" width="32" height="32"/>
+    </resources>
 </document>
