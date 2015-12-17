@@ -6,6 +6,7 @@
 //  Copyright © 2015 Eye Way. All rights reserved.
 //
 
+import UIKit
 import CoreLocation
 
 
@@ -17,7 +18,9 @@ class BeaconController: NSObject, CLLocationManagerDelegate {
     
     private var lastNearestBeacon: CLBeacon?
     
-    private var working = false
+    var working = false
+    
+    var currentViewController: UIViewController!
     
     var delegate: BeaconControllerDelegate?
 
@@ -69,7 +72,19 @@ class BeaconController: NSObject, CLLocationManagerDelegate {
             lastNearestBeacon = beacon
             
             if working {
-                delegate?.nearestBeacon(beacon)
+                
+                if let section = sectionRepository.getForBeaconMinor(Int(beacon.minor)) {
+                    let sectorList = currentViewController.tabBarController?.viewControllers![1] as! sectorListProducts
+                    sectorList.section = section
+
+                    currentViewController.tabBarController?.selectedIndex = 1
+                    currentViewController.tabBarController?.tabBar.items![1].enabled = true
+
+                    sectorList.updateSection()
+                    sectorList.tableView.reloadData()
+
+                    delegate?.nearestBeacon(beacon, section: section)
+                }
             }
         }
     }

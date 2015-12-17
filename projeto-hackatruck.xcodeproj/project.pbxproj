@@ -10,6 +10,7 @@
 		3F1B9B191C1EEAE80041A938 /* screensController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1B9B181C1EEAE80041A938 /* screensController.swift */; };
 		3F56B7E61C20412C00966A4D /* controlListInfos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F56B7E51C20412C00966A4D /* controlListInfos.swift */; };
 		3F56B7EA1C20472900966A4D /* sectorListProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F56B7E91C20472900966A4D /* sectorListProducts.swift */; };
+		3F8CAD9E1C22C6670075E101 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8CAD9D1C22C6670075E101 /* Section.swift */; };
 		3FA9B6A81C1EC87A00399CEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9B6A71C1EC87A00399CEA /* AppDelegate.swift */; };
 		3FA9B6AA1C1EC87A00399CEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9B6A91C1EC87A00399CEA /* ViewController.swift */; };
 		3FA9B6AD1C1EC87A00399CEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA9B6AB1C1EC87A00399CEA /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 		3F1B9B181C1EEAE80041A938 /* screensController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = screensController.swift; sourceTree = "<group>"; };
 		3F56B7E51C20412C00966A4D /* controlListInfos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = controlListInfos.swift; sourceTree = "<group>"; };
 		3F56B7E91C20472900966A4D /* sectorListProducts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sectorListProducts.swift; sourceTree = "<group>"; };
+		3F8CAD9D1C22C6670075E101 /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 		3FA9B6A41C1EC87A00399CEA /* projeto-hackatruck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "projeto-hackatruck.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA9B6A71C1EC87A00399CEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FA9B6A91C1EC87A00399CEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F8CAD9C1C22C6530075E101 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3F8CAD9D1C22C6670075E101 /* Section.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
 		3FA9B69B1C1EC87A00399CEA = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +121,7 @@
 		3FA9B6A61C1EC87A00399CEA /* projeto-hackatruck */ = {
 			isa = PBXGroup;
 			children = (
+				3F8CAD9C1C22C6530075E101 /* model */,
 				3FB039FA1C2193C300DF3CC7 /* speech */,
 				3FB039F51C21918700DF3CC7 /* beacon */,
 				3FA9B6A71C1EC87A00399CEA /* AppDelegate.swift */,
@@ -301,6 +312,7 @@
 				3F56B7E61C20412C00966A4D /* controlListInfos.swift in Sources */,
 				3FA9B6B01C1EC87A00399CEA /* projeto_hackatruck.xcdatamodeld in Sources */,
 				3F1B9B191C1EEAE80041A938 /* screensController.swift in Sources */,
+				3F8CAD9E1C22C6670075E101 /* Section.swift in Sources */,
 				3FB039FC1C21941D00DF3CC7 /* SpeechService.swift in Sources */,
 				3F56B7EA1C20472900966A4D /* sectorListProducts.swift in Sources */,
 				3FA9B6AA1C1EC87A00399CEA /* ViewController.swift in Sources */,

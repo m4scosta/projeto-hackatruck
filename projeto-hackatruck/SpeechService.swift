@@ -17,7 +17,7 @@ class SpeechService: BeaconControllerDelegate {
         synth.speakUtterance(utterance)
     }
     
-    func nearestBeacon(nearestBeacon: CLBeacon) {
-        speak(AVSpeechUtterance(string: "Novo beacon perto"))
+    func nearestBeacon(nearestBeacon: CLBeacon, section: Section) {
+        speak(AVSpeechUtterance(string: "Você está próximo da seção de \(section.name)"))
     }
 }

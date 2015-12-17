@@ -18,23 +18,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="FINDING YOUR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WAz-bM-Dcr">
-                                <rect key="frame" x="198" y="72" width="204" height="38"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FINDING YOUR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WAz-bM-Dcr">
+                                <rect key="frame" x="40" y="55" width="520" height="70"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="23"/>
                                 <color key="textColor" red="0.72941176470588232" green="0.45098039215686275" blue="0.15294117647058825" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9q-uc-Tjq">
-                                <rect key="frame" x="232" y="177" width="137" height="137"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9q-uc-Tjq">
+                                <rect key="frame" x="90" y="145" width="420" height="266"/>
                                 <animations/>
                                 <state key="normal" image="Logo"/>
                                 <connections>
                                     <action selector="toggleRanging:" destination="fVz-eE-J0P" eventType="touchUpInside" id="Is1-ur-sI1"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="WAY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s0v-Xk-eBU">
-                                <rect key="frame" x="261" y="340" width="79" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WAY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s0v-Xk-eBU">
+                                <rect key="frame" x="40" y="421" width="520" height="60"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="33"/>
                                 <color key="textColor" red="0.10196078431372549" green="0.2627450980392157" blue="0.33725490196078434" alpha="1" colorSpace="calibratedRGB"/>
@@ -62,6 +62,9 @@
                     <tabBarItem key="tabBarItem" title="Home" image="Very-Basic-Home-icon" id="Wgw-24-GkR">
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="toggleRangingB" destination="l9q-uc-Tjq" id="VrG-y1-HBf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h4o-QB-dHU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -70,7 +73,7 @@
         <!--Sector Infos-->
         <scene sceneID="n6a-GP-LPg">
             <objects>
-                <tableViewController id="FcT-rY-j7J" userLabel="Sector Infos" customClass="sectorListProducts" customModule="projeto_hackatruck" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="sectionController" id="FcT-rY-j7J" userLabel="Sector Infos" customClass="sectorListProducts" customModule="projeto_hackatruck" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="JZr-N3-AB4">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -80,8 +83,8 @@
                             <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SECTOR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eCh-Mk-ZB7">
-                                    <rect key="frame" x="268" y="23" width="65" height="21"/>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SECTOR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eCh-Mk-ZB7">
+                                    <rect key="frame" x="20" y="21.5" width="560" height="20.5"/>
                                     <animations/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -90,9 +93,14 @@
                             </subviews>
                             <animations/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="eCh-Mk-ZB7" firstAttribute="leading" secondItem="vbt-Um-bwG" secondAttribute="leading" constant="20" id="04r-Z0-TUT"/>
+                                <constraint firstAttribute="trailing" secondItem="eCh-Mk-ZB7" secondAttribute="trailing" constant="20" id="EFS-Yq-WoU"/>
+                                <constraint firstAttribute="bottom" secondItem="eCh-Mk-ZB7" secondAttribute="bottom" constant="2" id="agS-UY-dQq"/>
+                            </constraints>
                         </view>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="zOF-Kt-TIt" customClass="controlListInfos" customModule="projeto_hackatruck" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="productCell" id="zOF-Kt-TIt" customClass="controlListInfos" customModule="projeto_hackatruck" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="72" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zOF-Kt-TIt" id="KsU-zw-gWl">
@@ -125,11 +133,14 @@
                             <outlet property="delegate" destination="FcT-rY-j7J" id="rrb-MD-Y7d"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Infos" image="ios8_plus_icon" id="X12-lM-rWJ"/>
+                    <tabBarItem key="tabBarItem" enabled="NO" title="Infos" image="ios8_plus_icon" id="X12-lM-rWJ"/>
+                    <connections>
+                        <outlet property="sectionNameLabel" destination="eCh-Mk-ZB7" id="WyD-5h-98M"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eU5-uu-QDI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="978" y="763"/>
+            <point key="canvasLocation" x="978" y="773"/>
         </scene>
         <!--Screens Controller-->
         <scene sceneID="nGb-gR-ZKP">
@@ -153,7 +164,7 @@
     </scenes>
     <resources>
         <image name="Ecommerce-Shopping-Basket-icon" width="32" height="32"/>
-        <image name="Logo" width="302" height="302"/>
+        <image name="Logo" width="151" height="151"/>
         <image name="Very-Basic-Home-icon" width="32" height="32"/>
         <image name="ios8_plus_icon" width="32" height="32"/>
     </resources>

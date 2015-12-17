@@ -10,5 +10,5 @@ import CoreLocation
 
 protocol BeaconControllerDelegate {
     
-    func nearestBeacon(nearestBeacon: CLBeacon)
+    func nearestBeacon(nearestBeacon: CLBeacon, section: Section)
 }
